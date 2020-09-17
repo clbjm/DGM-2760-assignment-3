@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>03 Guessing game</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<header>
+<h1>Guessing game</h1>
+<h2>Loops</h2> 
+</header>
+<main>
+    <h1>Hi/Lo guessing game</h1>
+    <h2>what i learned</h2>  
+    <ul class="objectives">
+        <li>implement functions</li>
+        <li>implement a multi level if-then-else</li>
+        <li>use innterText to provide user feedback</li>
+        <li>implement a switch statement</li>
+        <li>dynamicallhy load a graph</li>
+        <li>create and append an image element</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <p>in this game you try to guess a random number between 1 and 15 in as few tries as possible.
+        you will be awarded a ribbon for your skills. good luck to you. if you would like to play again, refresh the page.
+    </p>
+
+
+    <article class="a1">
+        <h2>Play</h2>
+        <div>
+<input id="guess" type="number" placeholder="number"/>
+<button onclick= "evalGuess()">guess</button>
+        </div>
+    </article>
+
+    <article class="a2">
+        <h2>Trys</h2>
+        <div id="attempts" ></div>
+    </article>
+
+<article class="a3">
+    <h2>feedback</h2>
+    <div id="feedback"></div>
+</article>
+
+<article class="a4">
+    <h2>award</h2>
+    <div id="ribbon"></div>
+</article>
+
+</main>
+
+<footer>
+    <p>assignment for dgm2760 by Jonathon Mullins</p>
+</footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
